@@ -42,9 +42,9 @@ class Owner
     end
   end
   
-  def walk_dogs
-    pets[:dogs].each do |dog|
-      dog.mood = "happy"
+  def feed_fish
+    pets[:fishes].each do |fish|
+      fish.mood = "happy"
     end
   end
   

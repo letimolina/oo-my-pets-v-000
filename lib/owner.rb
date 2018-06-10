@@ -6,12 +6,12 @@ class Owner
   
   def initialize(species)
     @species = species
-    @pets = {
-             cats = [], 
-             dogs = [], 
-             fishes = []
+    OWNERS << self
+    @pets = {:fishes => [], 
+             :dogs => [], 
+             :cats => []
+      
     }
-    @@all << self
   end
   
   def say_species

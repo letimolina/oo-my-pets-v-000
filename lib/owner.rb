@@ -4,17 +4,17 @@ class Owner
   
   OWNERS = []
   
-  # def self.reset_all
-  #   OWNERS.clear
-  # end
+  def self.reset_all
+    OWNERS.clear
+  end
 
-  # def self.all
-  #   OWNERS
-  # end
+  def self.all
+    OWNERS
+  end
 
-  # def self.count
-  #   OWNERS.size
-  # end
+  def self.count
+    OWNERS.size
+  end
   
   def initialize(species)
     @species = species

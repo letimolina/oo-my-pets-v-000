@@ -4,6 +4,18 @@ class Owner
   
   OWNER = []
   
+  def self.reset_all
+    OWNERS.clear
+  end
+
+  def self.all
+    OWNERS
+  end
+
+  def self.count
+    OWNERS.size
+  end
+  
   def initialize(species)
     @species = species
     OWNER << self
@@ -61,5 +73,4 @@ class Owner
     "I have #{pets[:fishes].count} fish, #{pets[:dogs].count} dog(s), and #{pets[:cats].count} cat(s)."
   end
 
-    
 end

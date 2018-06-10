@@ -11,7 +11,7 @@ class Owner
              :dogs => [], 
              :cats => []
       
-    }
+            }
   end
   
   def say_species
@@ -30,6 +30,7 @@ class Owner
     pets[:dogs] << Dog.new(name)
   end
   
+  def walk_dog
   
 
     

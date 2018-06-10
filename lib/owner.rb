@@ -53,6 +53,7 @@ def sell_pets
     animals.each |animal|
       animal.mood = "nervous"
     end
+    animals.clear
   end
 end
     
